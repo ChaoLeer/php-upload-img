@@ -18,7 +18,7 @@
   // $callbackUrl = $_POST['callbackUrl'];
 
   if($file['error'] > 0) {
-    $msg = '传入参数错误' . $file['error'] . "  ";
+    $msg = '请检查图片命名或格式错误' . $file['error'] . "  ";
     exit($msg);
   } else {
     // chmod($uploadPath, 0666);
